@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+
+terraform/
+
+notes/
+
+docker/
+
+run_docker.sh
+README.md
