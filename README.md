@@ -1,4 +1,4 @@
-# InterviewAI
+# Interview Simulator App
 
 An AI-powered employee interview simulation platform. An interviewer chatbot conducts interviews with employee chatbots acting as various roles within a company, then analyzes responses to surface the most critical strategic insights for leadership. The app;
 
@@ -12,7 +12,7 @@ An AI-powered employee interview simulation platform. An interviewer chatbot con
 
 ## Project Structure
 ```
-InterviewAI/
+Interview Simulator App/
 │
 ├── manage.py                                # Entry point to run Django commands
 ├── requirements.txt                         # Python requirements
