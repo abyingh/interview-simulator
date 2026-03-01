@@ -1,0 +1,17 @@
+# Sample non-secret Terraform variables for Azure deployment
+# Copy this file to prod.auto.tfvars and replace values for your environment.
+
+project_name              = ""
+location                  = "centralus"  # This is the region that worked for me without any problems
+resource_group_name       = ""
+subscription_id           = ""
+docker_image_tag          = ""
+db_port                   = "5432"
+django_superuser_username = ""
+django_superuser_email    = ""
+openai_chat_model         = "gpt-5-mini"
+openai_analysis_model     = "gpt-5-mini"
+openai_embedding_model    = "text-embedding-3-small"
+num_interviews            = "100"
+num_concurrent_interviews = "10"  # Adjust based on your OpenAI tier and rate limits
+postgres_db               = ""
