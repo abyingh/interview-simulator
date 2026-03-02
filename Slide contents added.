@@ -8,7 +8,11 @@ An AI-powered employee interview simulation platform. An interviewer chatbot con
 4. After interviews complete, it performs an automated analysis and displays the top 3 most important themes, including direct supporting employee quotes (LLM + embeddings + clustering)
 5. Saves the interview data and results to the database (view the full conversation thread by selecting an interview in the dropdown menu below)
 6. Generates a simple downloadable presentation (board deck) summarizing the key themes and recommended focus areas.
-
+   - Slide 1: Title
+   - Slide 2: Top 3 Strategic Priorities
+   - Slide 3: Deep Dive on #1 Priority
+   - Slide 4: Methodology & Participants
+   
 
 ## Project Structure
 ```
